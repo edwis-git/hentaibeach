@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Mono|Roboto+Condensed&display=swap');
+body {
+    background-color: #F693CB;
+}
+
+.container {
+    display: flex;
+}
+
+h1,
+h3 {
+    font-family: 'Be Vietnam', sans-serif;
+}
+
+h1 {
+    color: white;
+font-family: 'PT Mono', monospace;
+
+
+
+    margin: 5px;
+
+}
+
+h3 {
+    margin-left: 20px;
+    margin-bottom: 15px;
+    color: #BAF550;
+    font-size: 1em;
+}
+
+img {
+    width: 300px;
+    height: 190px;
+    transition: all 1s;
+    display: block;
+    margin: 0 auto;
+}
+
+img:hover {
+    transform: scale(1.2)
+}
+
+p {
+    text-align: justify;
+    margin: 10px;
+   font-family: 'Roboto Condensed', sans-serif;
+}
+
+/* MEDIA QUERIES */
+
+@media only screen and (max-width: 600px) {
+    body {
+overflow-x: hidden;
+        margin: 0;
+    }
+
+    h1 {
+        color: white;
+
+        width: 100%;
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+        overflow:hidden;
+    }
+
+    .container {
+        overflow-x: hidden;
+        display: flex;
+        flex-wrap: wrap;
+        flex-basis: column;
+        margin: 20x;
+        justify-content: center;
+
+    }
+
+}
